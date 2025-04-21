@@ -5,7 +5,7 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
   padding: 0;
-  background-image: url('assets/backgorund/jonia3.jpg'); 
+  background-image: url('assets/backgorund/jonia6.jpg'); 
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -199,7 +199,7 @@ h1, h2, a, section, .ability, .ability_gif, .intro-text,.story-content {
     padding: 10px;
     font-size: 16px;
     text-align: center;
-    background-image: url('assets/backgorund/jonia4.jpg'); 
+    background-image: url('assets/backgorund/jonia5.jpg'); 
     background-attachment: scroll;
     background-size: cover;
     background-attachment: fixed;
