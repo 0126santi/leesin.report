@@ -190,3 +190,108 @@ h1, h2, a, section, .ability, .ability_gif, .intro-text,.story-content {
 .story-content p{
   color: white;
 }
+
+
+/* ---------------------- RESPONSIVE MOBILE ---------------------- */
+@media screen and (max-width: 768px) {
+
+  body {
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+    background-attachment: scroll;
+    background-size: cover;
+    background-attachment: fixed;
+    ackground-position: center;
+    background-repeat: no-repeat; 
+  }
+
+  header.main-header,
+  .sub-header {
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+  }
+
+  nav a {
+    display: block;
+    margin: 5px 0;
+    width: 80%;
+    padding: 10px;
+    font-size: 1rem;
+    background-color: rgba(124, 124, 124, 0.56);
+    border-radius: 5px;
+  }
+
+  .index-main {
+    padding: 15px;
+  }
+
+  .intro-text {
+    font-size: 1rem;
+    margin-bottom: 30px;
+    padding: 0 10px;
+  }
+
+  .lee-img-frame {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .lee-img-frame img {
+    width: 100%;
+    height: auto;
+  }
+
+  .story-content,
+  .ability {
+    padding: 20px;
+    width: 90%;
+  }
+
+  .ability img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .ability_gif img {
+    width: 100%;
+    height: auto;
+  }
+
+  section {
+    flex-direction: column;
+    height: auto;
+  }
+
+  section img {
+    width: 100% !important;
+    height: auto;
+    margin-bottom: 10px;
+  }
+}
+
+  //section {
+    //height: 320px;
+  //}
+
+  //section img:hover {
+    //width: 100% !important;
+  
+//}
+
+ 
