@@ -5,13 +5,14 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
   padding: 0;
-  //background-image: url('assets/backgorund/jonia3.jpg'); 
-  //background-size: cover;
-  //background-position: center;
-  //background-repeat: no-repeat; 
-  height: 100%;
-  background: linear-gradient(135deg, #2b1e30, #533f5e,  #a36f80);
-  color: white;
+  background-image: url('assets/backgorund/jonia3.jpg'); 
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat; 
+  height: 100vh;
+  //background: linear-gradient(135deg, #2b1e30, #533f5e,  #a36f80);
+  //color: white;
   
 }
 
@@ -43,6 +44,7 @@ a:hover {
 } 
 
 .index-main {
+  text-shadow: 1px 1px 1px #000;
   text-align: center;
   padding: 30px 20px;
 }
