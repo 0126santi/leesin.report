@@ -199,10 +199,11 @@ h1, h2, a, section, .ability, .ability_gif, .intro-text,.story-content {
     padding: 10px;
     font-size: 16px;
     text-align: center;
+    background-image: url('assets/backgorund/jonia4.jpg'); 
     background-attachment: scroll;
     background-size: cover;
     background-attachment: fixed;
-    ackground-position: center;
+    background-position: center;
     background-repeat: no-repeat; 
   }
 
